@@ -73,9 +73,7 @@ h1{
 
 .profile_flex{
     display: flex;
-    
     height: 150px;
-
 }
 
 a{
@@ -148,10 +146,6 @@ a:hover{
         margin: 0px;   
 }
 
-.navBarPro{
-    display: flex;
-}
-
 .gmailBtn, .imgBtn{
     color: black;
 }
@@ -167,8 +161,26 @@ a:hover{
         display: block;
         width: 272px;
         height: 92px;
-        margin: 0px;  
-        align-self: center;
+        margin: 0px;        
+}
+
+.flexCol{
+    display: flex;
+    flex-direction: column;
+}
+
+.flexRow{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexCenter{
+    display: flex;
+    justify-content: center;
+}
+
+.btnSearch{
+    background-color: #f2f2f2;
 }
 /*CSS INDEX*/
 
