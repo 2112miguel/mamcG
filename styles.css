@@ -116,4 +116,59 @@ a:hover{
     gap: 20px;
 }
 
+/*CSS GOOGLE*/
+
+.bodyCss{
+    font-family: sans-serif;
+    color: black;
+}
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px
+}
+.appGoo{
+    background-image: url("https://cdn-icons-png.flaticon.com/512/566/566001.png");
+    background-size: 14px 14px;
+    display: block;
+    width: 14px;
+    height: 14px;
+    margin: 0px;   
+}
+
+.usrImg{
+        background-image: url("https://lh3.googleusercontent.com/ogw/ADea4I6OROTrITcuA62D8Du-Gt-sXc6gBzty0H8HooeK=s32-c-mo");
+        background-size: 25px 25px;
+        display: block;
+        width: 25px;
+        height: 25px;
+        margin: 0px;   
+}
+
+.navBarPro{
+    display: flex;
+}
+
+.gmailBtn, .imgBtn{
+    color: black;
+}
+
+.gmailBtn:hover, .imgBtn:hover{
+    text-decoration-line: underline;
+    color: black;
+}
+
+.logoGoo{
+        background-image: url("https://www.google.com.mx/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png");
+        background-size: 272px 92px;
+        display: block;
+        width: 272px;
+        height: 92px;
+        margin: 0px;  
+        align-self: center;
+}
+/*CSS INDEX*/
 
