@@ -85,11 +85,10 @@ a{
 
 .adminP{
     border: solid gray;
-    padding: 30px 60px;  
-    
+    padding: 0px 40px;
     display: flex;
     align-self:center;
-    margin: 150px;
+    margin: 200px;
 }
 
 a:hover{
