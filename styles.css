@@ -5,6 +5,7 @@
     color: gray;
     text-align: center;
     align-items: center;
+    
 }
 
 .logoNet{
@@ -74,9 +75,14 @@ h1{
 .profile_flex{
     display: flex;
     height: 150px;
+    
 }
 
 a{
+    text-decoration: none;
+}
+
+.adminPro{
     text-decoration: none;
     color: gray;
 }
@@ -86,7 +92,7 @@ a{
     padding: 0px 40px;
     display: flex;
     align-self:center;
-    margin: 200px;
+    margin: 200px; 
 }
 
 a:hover{
@@ -117,8 +123,8 @@ a:hover{
 /*CSS GOOGLE*/
 
 .bodyCss{
-    font-family: sans-serif;
-    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
 }
 
 .navBar{
@@ -144,13 +150,14 @@ a:hover{
         width: 25px;
         height: 25px;
         margin: 0px;   
+        border-radius: 50%;
 }
 
 .gmailBtn, .imgBtn{
     color: black;
 }
 
-.gmailBtn:hover, .imgBtn:hover{
+.gmailBtn:hover, .imgBtn:hover, .linkEng:hover{
     text-decoration-line: underline;
     color: black;
 }
@@ -164,23 +171,201 @@ a:hover{
         margin: 0px;        
 }
 
-.flexCol{
+.flexColSear{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.flexColFoo{
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f8f8;
+    column-gap: 30px;
+    margin-top: 300px;
 }
 
 .flexRow{
     display: flex;
     flex-direction: row;
+    margin-top: 20px;
 }
 
 .flexCenter{
     display: flex;
     justify-content: center;
+    margin-top: 250px;
 }
 
+.flexRight{
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.flexLeft{
+    display: flex;
+    justify-content:flex-end;
+    align-content: flex-end;
+    
+}
+
+.flexRowFoo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
 .btnSearch{
-    background-color: #f2f2f2;
+    
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: #f8f8f8;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.linkEng{
+    color: blue;
+}
+
+.flexRight a, .flexLeft a, .flexColFoo div p{
+    color: gray;
+}
+
+.flexRight:hover a, .flexLeft a:hover{
+    background-color: #f8f8f8;
+    color: gray;
+    text-decoration-line: underline;
+}
+
+.barSear{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.barSear input{
+    width: 460px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+.barSear .iconFind{
+    background-image: url("https://img.icons8.com/material-two-tone/24/000000/search.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+.barSear .iconVoi{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+/*NFT*/
+
+.nftBody{
+    background-color: #0D192B;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;    
+}
+
+.nftBody a, .maginCard p{
+    color: white;
+}
+
+.cardNft{
+    background-color: #14253D;
+    align-items: center;
+    align-self: center;
+    margin-top: 100px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    
+}
+.marginCard{
+    padding: 20px 20px;
+    align-items: center;
+    
+}
+
+.nftFlexRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ethIco{
+    background: url("./images/icon-ethereum.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+
+.timeIco{
+    display: flex;
+    background: url("./images/icon-clock.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+
+.nftImg{
+    background-image: url("./images/image-equilibrium.jpg");
+    background-size: 430px 430px;
+    display: block;
+    width: 430px;
+    height: 430px;
+    align-self: center;
+    border-radius: 10px;
+}
+
+.creaNft{
+    background-image: url("./images/image-avatar.png");
+    background-size: 45px 45px;
+    display: block;
+    width: 45px;
+    height: 45px;
+    border: solid 3px;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+.flexRowNft{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.maginCard div p, .maginCard div div p, .maginCard div span {
+    color: #8BACDA;
+}
+
+.ethColor{
+    color: #00FFF7;
+    font-size: 18px;
 }
 /*CSS INDEX*/
-
