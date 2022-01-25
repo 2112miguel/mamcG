@@ -1,0 +1,99 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items:stretch;
+    gap: 100px;
+    background-color: #f8f8f8;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+}
+
+article{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+}
+
+.flagMexL{
+    width: 300px;
+    height: 300px;
+    background-color: green;
+}
+
+.flagMexS{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/2a/Coat_of_arms_of_Mexico.svg");
+    background-size: 300px 300px;
+    display: block;
+    width: 300px;
+    height: 300px;
+    align-self: center;
+}
+
+.flagMexR{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}
+
+.flagFraLeft{
+    background-color: blue;
+    
+}
+
+.flagFraRight{
+    background-color: red;
+}
+
+.colGerma{
+    display: flex;
+    flex-direction: column;
+}
+
+.flagGerB{
+    background-color: black;
+    height: 100px;
+    width: 900px;
+}
+
+.flagGerR{
+    background-color: red;
+    height: 100px;
+    width: 900px;
+}
+
+.flagGerY{
+    background-color: yellow;
+    height: 100px;
+    width: 900px;
+}
+
+.flagJapan{
+    border-radius: 50%;
+    background-color: red;
+}
+
+.flagEngW{
+    height: 110px;
+    width: 410px;
+    
+}
+
+.flagEngR{
+    height: 80px;
+    width: 900px;
+    background-color: red;
+}
+
+.flagEngRCol{
+    width: 80px;
+    height: 110px;
+    background-color: red;
+}
