@@ -314,7 +314,7 @@ hr{
 }
 
 .ethIco{
-    background: url("./images/icon-ethereum.svg");
+    background: url("../images/icon-ethereum.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -325,7 +325,7 @@ hr{
 
 .timeIco{
     display: flex;
-    background: url("./images/icon-clock.svg");
+    background: url("../images/icon-clock.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -335,7 +335,7 @@ hr{
 }
 
 .nftImg{
-    background-image: url("./images/image-equilibrium.jpg");
+    background-image: url("../images/image-equilibrium.jpg");
     background-size: 430px 430px;
     display: block;
     width: 430px;
@@ -345,7 +345,7 @@ hr{
 }
 
 .creaNft{
-    background-image: url("./images/image-avatar.png");
+    background-image: url("../images/image-avatar.png");
     background-size: 45px 45px;
     display: block;
     width: 45px;
@@ -378,8 +378,6 @@ hr{
     display: flex;
     flex-direction: column;
 }
-
-
 
 .pokeRow{
     display: flex;
