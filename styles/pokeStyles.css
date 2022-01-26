@@ -17,8 +17,8 @@
 }
 
 .pokeCard{
-    width:  200px;
-    height: 200px;
+    width:  250px;
+    height: 300px;
     display: flex;
     align-items: baseline;
     border-radius: 30px;
@@ -61,40 +61,162 @@
 
 .magiImg{
     background-image: url("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png");
-    background-size: 100px 100px;
+    background-size: 150px 150px;
     display: block;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     align-self: center;
     border-radius: 10px;
 }
 
 .pokeCard:hover .magiImg{
     background-image: url("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/129.png");
-    background-size: 100px 100px;
+    background-size: 150px 150px;
     display: block;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     align-self: center;
     border-radius: 10px;
 }
 
 .chariImg{
     background-image: url("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png");
-    background-size: 100px 100px;
+    background-size: 150px 150px;
     display: block;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     align-self: center;
     border-radius: 10px;
 }
 
 .pokeCard:hover .chariImg{
     background-image: url("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/6.png");
-    background-size: 100px 100px;
+    background-size: 150px 150px;
     display: block;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+    align-self: center;
+    border-radius: 10px;
+}
+
+.rayImg{
+    background-image: url("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/384.png");
+    background-size: 150px 150px;
+    display: block;
+    width: 150px;
+    height: 150px;
+    align-self: center;
+    border-radius: 10px;
+}
+
+.pokeCard:hover .rayImg{
+    background-image: url("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/384.png");
+    background-size: 150px 150px;
+    display: block;
+    width: 150px;
+    height: 150px;
+    align-self: center;
+    border-radius: 10px;
+}
+
+.enbImg{
+    background-image: url("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/500.png");
+    background-size: 150px 150px;
+    display: block;
+    width: 150px;
+    height: 150px;
+    align-self: center;
+    border-radius: 10px;
+}
+
+.pokeCard:hover .enbImg{
+    background-image: url("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/500.png");
+    background-size: 150px 150px;
+    display: block;
+    width: 150px;
+    height: 150px;
+    align-self: center;
+    border-radius: 10px;
+}
+
+
+
+.heraImg{
+    background-image: url("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/214.png");
+    background-size: 150px 150px;
+    display: block;
+    width: 150px;
+    height: 150px;
+    align-self: center;
+    border-radius: 10px;
+}
+
+.pokeCard:hover .heraImg{
+    background-image: url("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/214.png");
+    background-size: 150px 150px;
+    display: block;
+    width: 150px;
+    height: 150px;
+    align-self: center;
+    border-radius: 10px;
+}
+
+.scImg{
+    background-image: url("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/212.png");
+    background-size: 150px 150px;
+    display: block;
+    width: 150px;
+    height: 150px;
+    align-self: center;
+    border-radius: 10px;
+}
+
+.pokeCard:hover .scImg{
+    background-image: url("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/212.png");
+    background-size: 150px 150px;
+    display: block;
+    width: 150px;
+    height: 150px;
+    align-self: center;
+    border-radius: 10px;
+}
+
+.espeImg{
+    background-image: url("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/196.png");
+    background-size: 150px 150px;
+    display: block;
+    width: 150px;
+    height: 150px;
+    align-self: center;
+    border-radius: 10px;
+}
+
+.pokeCard:hover .espeImg{
+    background-image: url("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/196.png");
+    background-size: 150px 150px;
+    display: block;
+    width: 150px;
+    height: 150px;
+    align-self: center;
+    border-radius: 10px;
+}
+
+.sudoImg{
+    background-image: url("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/185.png");
+    background-size: 150px 150px;
+    display: block;
+    width: 150px;
+    height: 150px;
+    align-self: center;
+    border-radius: 10px;
+}
+
+.pokeCard:hover .sudoImg{
+    background-image: url("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/185.png");
+    background-size: 150px 150px;
+    display: block;
+    width: 150px;
+    height: 150px;
     align-self: center;
     border-radius: 10px;
 }
