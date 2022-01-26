@@ -1,0 +1,128 @@
+.bodyNetflix{
+    background-color: black;
+    font-family: "Boboto", sans-serif;
+    color: gray;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.logoNet{
+    
+    background-image: url("https://storage.googleapis.com/www-paredro-com/uploads/2016/06/logo_netflix_antes.jpg");
+    background-size: 100px 100px;
+    display: block;
+    width: 95px;
+    height: 75px;
+    margin-top: 0 auto;
+    margin-bottom: 0 auto;  
+}
+
+.imgMiguel{
+    background-image: url("https://occ-0-4561-116.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABeEAcPZi6PjGs2nulcaolSHUKFnU6df77uaEQcDnULWbpaSa4ciX_ULtwiibSQ26pZ060ZgBEbiGfZIuzJXXaTpoZZKD.png?r=2de");
+    background-size: 200px 200px;
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.imgNi{
+    background-image: url("https://occ-0-4561-116.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABT-xjqb6poxm0FcTELfF4rQAUV-mhCsx-Scbq6sXAX0T2p0XtqKyIab0YMydt9Hm-Mz7EE67R3MaACwJTXTryclLiGB_.png?r=8ec");
+    background-size: 200px 200px;
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.imgMT{
+    background-image: url("https://occ-0-4561-116.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABfceDl8kk7pkKXVsKsP10U3IfZkQD-OlHuGoxc5scmVz8Pzh2W8mTB6fpGdMtE-2AtLmNLT0e9JlF6zT5KMzYBFYo2F7.png?r=870");
+    background-size: 200px 200px;
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.imgM{
+    background-image: url("https://occ-0-4561-116.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABeoiFWtkpT2ezo-zFFoj5VDcvij4ZYSLnUqgWObtKbMG85CvH7yu27n7WgP0LVu3el_Vj3hw1L-eAwDVXYm_m8iJFWo1.png?r=f08");
+    background-size: 200px 200px;
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.imgD{
+    background-image: url("https://occ-0-4561-116.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABfzF0jDEyIDMIDllHkqhvicWlZC7P8rzWjtfRGasxpJ_44a-snOxTjfnfsMIkrxhTLsSOtEj-NPwaEbxRnw2cuRU6bZi.png?r=071");
+    background-size: 200px 200px;
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    display: flex;
+    font-size:40px;
+}
+
+.profile_flex{
+    display: flex;
+    height: 150px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.adminPro{
+    text-decoration: none;
+    color: gray;
+}
+
+.adminP{
+    border: solid gray;
+    padding: 0px 40px;
+    display: flex;
+    align-self:center;
+    margin: 200px; 
+}
+
+a:hover{
+    color: white;
+}
+
+.adminP:hover {
+    border: solid white;
+}
+
+.adminP:hover h2{
+    color: white;
+}
+.profile_img:hover a{
+    border: solid white;
+}
+
+.profile_img:hover  span{
+    color: white;
+    
+}
+
+.profile_img{
+    height: 260px;
+    width: 250px;
+}
+
+.sectionRow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    gap: 20px;
+}
