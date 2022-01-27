@@ -25,6 +25,7 @@
     width: 200px;
     height: 200px;
     margin: 20px;
+    border-radius: 4px;
 }
 
 .imgNi{
@@ -34,6 +35,7 @@
     width: 200px;
     height: 200px;
     margin: 20px;
+    border-radius: 4px;
 }
 
 .imgMT{
@@ -43,6 +45,7 @@
     width: 200px;
     height: 200px;
     margin: 20px;
+    border-radius: 4px;
 }
 
 .imgM{
@@ -52,6 +55,7 @@
     width: 200px;
     height: 200px;
     margin: 20px;
+    border-radius: 4px;
 }
 
 .imgD{
@@ -62,6 +66,7 @@
     height: 200px;
     margin: 20px;
     align-items: center;
+    border-radius: 4px;
 }
 
 h1{
@@ -73,8 +78,9 @@ h1{
 
 .profile_flex{
     display: flex;
-    height: 150px;
     
+    height: 260px;
+   
 }
 
 a{
@@ -105,18 +111,23 @@ a:hover{
 .adminP:hover h2{
     color: white;
 }
-.profile_img:hover a{
-    border: solid white;
+.profile_img:hover a {
+    /*
+    border: 1px solid white;
+    text-decoration: none;*/
+    box-shadow: inset 0 0 0 4px white, 0 0 1px rgb(0 0 0 / 0%);
 }
 
 .profile_img:hover  span{
     color: white;
-    
+    cursor: pointer;
 }
 
 .profile_img{
+    
     height: 260px;
     width: 250px;
+   
 }
 
 .sectionRow{
