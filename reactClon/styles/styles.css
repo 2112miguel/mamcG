@@ -1,0 +1,122 @@
+main{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+
+.navBar{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(32, 35, 42);
+    color: white;
+    height: 60px;
+    width: 1905px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+    left: 0;
+}
+
+.btnsFour{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+a span{
+    color: rgb(97, 218, 251);
+}
+
+section a{
+    color: white;
+    text-decoration: none;
+}
+
+.btnLink{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.fontReac{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.fontTamOn{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.fontTamTw{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+a:hover{
+    color: rgb(97, 218, 251);
+}
+
+.flexRow{
+    display: flex;
+    flex-direction: row;
+}
+
+.iconReac{
+    background: url("../img/descarga.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+
+.iconLang{
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/OOjs_UI_icon_language-ltr.svg/20px-OOjs_UI_icon_language-ltr.svg.png"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    display: block; 
+    filter:  invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+    margin-right: 10px;
+}
+
+a:hover .iconLang{
+    filter: invert(79%) sepia(40%) saturate(885%) hue-rotate(161deg) brightness(99%) contrast(99%);
+}
+
+.inputSear{
+    background-color: rgb(32, 35, 42);
+    margin-right: 1px;
+    font-size: 18px;
+    font-weight: 300;
+    border: 0;
+    width: 11%;
+    color: #ffffff;
+    padding: 4px 4px 4px 29px;
+    background-image: url(https://reactjs.org/search.svg);
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 3px;
+}
+
+.inputSear:focus{
+    background-color: #373940;
+    outline: 0;
+    border-radius: 0.25rem;
+}
+
