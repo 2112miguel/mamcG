@@ -1,9 +1,13 @@
 main{
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    
 }
-
+body{
+    background-color: #23232A;
+}
 .navBar{
     position: fixed;
+    flex-wrap: nowrap;
     display: flex;
     flex-direction: row;
     background-color: rgb(32, 35, 42);
@@ -30,7 +34,7 @@ main{
 }
 
 a span{
-    color: rgb(97, 218, 251);
+    
 }
 
 section a{
@@ -47,6 +51,7 @@ section a{
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
+    color: rgb(97, 218, 251);
 }
 
 .fontTamOn{
@@ -120,3 +125,73 @@ a:hover .iconLang{
     border-radius: 0.25rem;
 }
 
+@media (max-width: 779px ) {
+    body{
+        background-color: wheat;
+    }
+
+    .navBar{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .btnsFour{
+        margin-left: 40px;
+    }
+
+    .btnLink{
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    span{
+        
+    }
+}
+
+@media (max-width: 500px){
+    body{
+        background-color: #23232A;
+    }
+
+    .navBar{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .btnsFour{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .btnLink{
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    a .fontTamOn, span{
+        display: none;
+    }
+
+    .inputSear{
+        transition-duration: 0.2s 0.2s;
+        transition-delay: 0s 0s;
+        width: 0px;
+    }
+
+    .inputSear:focus {
+        appearance: none;
+        margin-right: 0px;
+        transition-duration: 0.2s 0.2s;
+        transition-delay: 0s 0s;
+        transition-timing-function: ease ease;
+        width: 5%;
+    }
+
+    .iconLang{
+        margin-left: 0px;
+    }
+}
