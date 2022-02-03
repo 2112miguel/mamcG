@@ -1,1 +1,72 @@
 $colorBlackReact: #23232A;
+$colorDesaturedDC: #5BA4A4;
+$colorLightGraCyan:#EFFAFA;
+$colorLightGraCyanT:#EEF6F6;
+$colorVeryDark:#2C3A3A;
+$colorWhite:white;
+
+$colors: (
+    "desaDc":#{$colorDesaturedDC},
+    "blackReact":#{$colorBlackReact},
+    "liGraCy":#{$colorLightGraCyan},
+    "liGraCyT":#{$colorLightGraCyanT},
+    "veDark":#{$colorVeryDark}
+);
+
+@each $name, $glyph in $colors{
+    .bg-#{$name}{
+        background-color: $glyph;
+    }
+}
+
+@each $name, $color in $colors{
+    .text-#{$name}{
+        color: $color;
+    }
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    gap: 20px
+}
+
+.flex-row-center{
+    display: flex;
+    
+    align-items: center;
+}
+
+.flex-row-space-bet{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:30px
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.profileImg{
+    
+    background-size: 6rem 6rem;
+    display: block;
+    width: 6rem;
+    height: 6rem;
+    margin: 0px;   
+    border-radius: 50%;
+}
+
+.imgPost{
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 6rem;
+    height: 6rem;
+    display: block;
+    margin-right: 10px;
+    margin-top: 3px;
+}
