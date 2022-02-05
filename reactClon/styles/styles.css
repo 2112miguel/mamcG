@@ -123,7 +123,7 @@ a:hover .iconLang{
     border-radius: 0.25rem;
 }
 
-@media (max-width: 779px ) {
+@media (max-width: 725px ) {
     body{
         background-color: wheat;
     }
@@ -135,6 +135,7 @@ a:hover .iconLang{
 
     .btnsFour{
         margin-left: 40px;
+        margin-right: 100px;
     }
 
     .btnLink{
@@ -142,6 +143,26 @@ a:hover .iconLang{
         padding-right: 8px;
     }
 
+    .inputSear{
+        margin-left: 0px;
+        transition-duration: 0.2s 0.2s;
+        transition-delay: 0s 0s;
+        width: 0px;
+    }
+
+    .inputSear:focus {
+        appearance: none;
+        margin-right: 0px;
+        transition-duration: 0.2s 0.2s;
+        transition-delay: 0s 0s;
+        transition-timing-function: ease ease;
+        width: 5%;
+        
+    }
+
+    .fontTamOn span{
+        display: none;
+    }
    
 }
 
