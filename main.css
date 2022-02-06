@@ -38,6 +38,10 @@
   color: #2C3A3A;
 }
 
+.btnLabelSkill {
+  height: 1.8rem;
+}
+
 .flex-row {
   display: -webkit-box;
   display: -ms-flexbox;
