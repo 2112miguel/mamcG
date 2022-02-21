@@ -4,13 +4,15 @@ $colorLightGraCyan:#EFFAFA;
 $colorLightGraCyanT:#EEF6F6;
 $colorVeryDark:#2C3A3A;
 $colorWhite:white;
+$colorBGB: #282828;
 
 $colors: (
     "desaDc":#{$colorDesaturedDC},
     "blackReact":#{$colorBlackReact},
     "liGraCy":#{$colorLightGraCyan},
     "liGraCyT":#{$colorLightGraCyanT},
-    "veDark":#{$colorVeryDark}
+    "veDark":#{$colorVeryDark},
+    "bGb":#{$colorBGB}
 );
 
 @each $name, $glyph in $colors{

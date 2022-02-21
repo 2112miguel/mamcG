@@ -1,0 +1,145 @@
+/****CSS EXCLUSIVO DEL CV******/
+
+/****LETRA DEL CV*****/
+.bgBodyCv{
+    font-family: Georgia; color: #444;
+    
+}
+
+/**SE CREA UN CLASS PARA CADA SECTION EN EL CUAL SE CAMBIA EL FONDO Y LOS MARGENES**/
+.card{
+    
+    padding: 10px 20px; 
+    margin: 10px; 
+    background: #f5f5f5; 
+    border: solid #666; 
+    border-width: 8px 0 2px 0;
+    width: 80%;
+}
+/*SE CREA UN ENCABEZADO AL CUAL SE LE DA FORMATO PARA ALINEAR Y QUE DE UN EFECTO DE SOMBRA SE PUEDE MEJORAR**/
+.cvHead{
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 82%;
+    margin: 10px;
+    text-align: center;
+    font-family: arial;
+    background-color: #f5f5f5;
+}
+/**SE USA PARA DARLE FORMATO A TITULO DEL NOMBRE ***/
+.title{
+    color: gray;
+    font-size: 18px;
+}
+/**SE CREA UN CLASS PARA DARLE FORMATO A LA TABLA EN DONDE SE APLICA EL FORMATO DE TEXTO PARA ALINEAR A LA IZQUIERDA
+Y QUE SE AJUSTE A LOS DEMAS ELEMENTOS SE PUEDE MEJORAR
+**/
+.tableCss{
+    background-color: #f5f5f5;
+    border: solid #666;
+    padding: 10px 20px;
+    border-width: 8px 0 2px 0;
+    text-align: left;
+    width: 82%;
+    margin: 10px;
+    
+}
+
+/**CS PARA LA PAGINA DE FACE**/
+
+/**SE CREA EL CSS PARA EL LOGIN DE LA PAGINA face**/
+.faceBody {
+    margin: 0;
+    font-family: 'Lucida Grande', tahoma,verdana,arial,sans-serif;
+    line-height: 1.28;
+    
+  }
+/*CAMBIA A NEGRITAS EL TEXTO*/
+  .pBold{
+      font-weight: bold;
+  }
+/*LE DA EL ESTILO A TODO EL LOGIN*/
+  .cardFace{
+      width: 40%;
+      background: linear-gradient(to bottom, #ffffff, #dfe1ee);
+      align-content:center;
+      margin: 20px;
+      padding: 10px 20px;
+          
+  }
+/*ENVIA EL TEXTO HACIA LA DERECHA*/
+  .labelForm{
+      text-align: right;
+  }
+  /*CAMBIA EL COLOR AL BOTON SING UP A VERDE Y EL COLOR DE LA LETTRA*/
+  .submitColor{
+      background-color: #41A317;
+      color: white;
+      
+  }
+/*QUITO EL SUBRAYADO  DE LOS  LINKS*/
+  .aSinSub{
+    text-decoration: none;
+    
+  }
+/*CAMBIO A AZUL UN LINK*/
+  .aAzul{
+    color: blue;
+  }
+/*CAMBIO DE POSICION EL BOTON*/
+  .alingCenter{
+      text-align: center;
+  }
+/*CAMBIO EL TAMAÑO DE ALGUNOS INPUT COMO EL I AM Y EL BIRTHDAY*/
+  .inputTam{
+      width: 185px;
+  }
+
+  .pPie{
+      color: #6a6a6a;
+  }
+  
+  .left{
+      margin: 0px 0px 0px 145;
+      text-align: left;
+  }
+
+  body{
+      color: #203360;
+  }
+
+  .registrer{
+      padding: 50px;
+      background: linear-gradient(#f8f9fb,#c5cde0);
+      width: 500px;
+  }
+
+  form{
+      width: 400px;
+      margin: 0 auto;
+      text-align: right;
+  }
+
+  select{
+      width: 250px;
+      margin: 4px;
+  }
+  input{
+      width: 250px;
+      margin: 4px;
+  }
+
+  button{
+    background-color: green;
+    color: white;
+  }
+
+  p{
+      text-align: center;
+      color: gray;
+  }
+
+  a:not(:last-child){
+      text-decoration: none;
+      display:block;
+  }

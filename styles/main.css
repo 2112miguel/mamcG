@@ -18,6 +18,10 @@
   background-color: #2C3A3A;
 }
 
+.bg-bGb {
+  background-color: #282828;
+}
+
 .text-desaDc {
   color: #5BA4A4;
 }
@@ -36,6 +40,10 @@
 
 .text-veDark {
   color: #2C3A3A;
+}
+
+.text-bGb {
+  color: #282828;
 }
 
 .btnLabelSkill {
