@@ -22,6 +22,10 @@
   background-color: #282828;
 }
 
+.bg-blueAqua {
+  background-color: #02CDC0;
+}
+
 .text-desaDc {
   color: #5BA4A4;
 }
@@ -44,6 +48,10 @@
 
 .text-bGb {
   color: #282828;
+}
+
+.text-blueAqua {
+  color: #02CDC0;
 }
 
 .btnLabelSkill {

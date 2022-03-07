@@ -14,18 +14,22 @@
 <body class="bg-light ">
     <main >
       <!--Nav bar principal-->
-        <nav class="navbar navbar navbar-light bg-white fixed-top ">
-            <form class="form-inline" style="margin-left: 312.5px;">
+        <nav class="navbar navbar navbar-light bg-white fixed-top d-flex flex-row d-flex justify-content-xl-around justify-content-md-between justify-content-sm-start justify-content-start">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>  
+          <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
+          <form class="form-inline">
                 <a class="navbar-brand" href="#">
                     <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/logos/resized_logo_UQww2soKuUsjaOGNB38o.png" width="50" height="40" alt="">
                   </a>
                 <input class="form-control" style="width: 402px;" type="search" placeholder="Search" aria-label="Search">
-                <a href="" class="ml-1"><i class="bi bi-search"></i></a> 
-              </form>
-              <form class="form-inline" style="margin-right: 312.5px;">
-                <button type="button" class="btn btn-light">Log in</button>
-                <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>           
-              </form>         
+                <a href="" class="ml-1"><i class="bi bi-search"></i></a>       
+          </form>
+            <form class="form-inline" >
+              <button type="button" class="btn btn-light">Log in</button>
+              <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>           
+            </form>      
           </nav>
           <!--Flex principal-->
           <div class="d-flex  bd-highlight" style="margin-top: 80px; margin-left: 312.5px; margin-right: 312.5px;">
@@ -37,7 +41,7 @@
                           <a href="">Dev Community</a> is a community of 788,722 amazing developers
                       </h5>               
                       <p class="card-text text-muted">We're a place where coders share, stay up-to-date and grow their careers.</p>
-                      <button type="button" class="btn btn-outline-primary ml-4">Create account</button><br/>
+                      <button type="button" class="btn btn-outline-primary ml-4" onclick="location.href='./createAcount.html'">Create account</button><br/>
                       <button type="button" class="btn btn-outline-light text-dark ml-5">Log in</button>
                     </div>
                   </div>
