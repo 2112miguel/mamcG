@@ -39,7 +39,7 @@ function card(txt,imgLink,indexLink){
     const divFlex= document.createElement('div')
     const divBtn = document.createElement('div')
     const botonCard = document.createElement('button')
-    const botonView = document.createElement('button')
+    const botonView = document.createElement('a')
     const txtMuted = document.createElement('small')
     const imgCard = document.createElement('img')
     const aImg = document.createElement('a')
@@ -66,11 +66,9 @@ function card(txt,imgLink,indexLink){
     divFlex.append(divBtn)
     divBtn.append(botonView)
     botonView.innerText='View'
-    divBtn.append(botonCard)
-    botonCard.innerText='Edit'
+    botonView.href=indexLink
     divFlex.append(txtMuted)
     txtMuted.innerText='9 mins'
-
     pCard.innerText=txt
     contenedor.append(divCol)
     //body.append(divCol)
