@@ -70,8 +70,20 @@
     height: 18px;
 }
 
+.main{
+    margin-top: 80px; 
+    margin-left: 312.5px; 
+    
+}
+
 @media (max-width: 1025px ){
     #aside{
+        display: none;
+    }
+}
+
+@media (max-width: 767px ){
+    #navL{
         display: none;
     }
 }
