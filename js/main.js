@@ -77,6 +77,7 @@ function card(txt,imgLink,indexLink){
 card('Clon de DevTo hecho en css y Boostrap','./img/devToClon.jpg','./html/devToClon/devTo.html')
 card('Clon de static','./img/static Clon.jpg','./html/static-job-clon/static.html')
 card('Clon de Google','./img/clonGoogle.jpg','./html/googleClon/google.html')
+card('Biblioteca Pokemon hecha en Bootstrap javascript y animate css','','./html/pokes/pokedex.html')
 card('Clon de Netflix de la pantalla de seleccion de usuario','./img/netflixClon.jpg','./html/neflixClon/netflix.html')
 card('Clon de NFT','./img/nft.jpg','./html/nftClon/nft.html')
 card('Cartas pokemon con su respectivos colores shinys','./img/cardsPoke.jpg','./html/pokeCards/pokemonCartas.html')
